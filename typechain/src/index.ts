@@ -65,5 +65,13 @@ let blockchain: [Block] = [genesisBlock];
 console.log(blockchain);
 
 
+const a : any[] = [1, 2, 3, 4]
+const b : any = true
+
+a + b 
+
+type Add = (a:number, b:number) => number
+
+const add:Add = (a, b) => a + b
 
 export {};
