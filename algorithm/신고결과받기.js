@@ -69,5 +69,6 @@ function solution(id_list, report, k) {
   //k: 정지 기준이 되는 신고 횟수
   //각 아이디마다 메일을 받은 횟수를 배열에 담아 return
   var answer = [];
+
   return answer;
 }
