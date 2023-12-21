@@ -20,6 +20,7 @@ function solution(n, lost, reserve) {
         setArr[i + 1]--;
       }
     }
+    //test
   }
   for (let i = 0; i < n; i++) {
     if (setArr[i] >= 1) {
